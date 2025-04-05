@@ -1,0 +1,100 @@
+.places-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    text-shadow: #555;
+}
+
+.title {
+    font-size: 35px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    margin-bottom: 10px;
+    text-decoration:line;
+    text-shadow: 2px 1.5px#555;
+}
+
+.tabs {
+    display: flex;
+    gap: 15px;
+   
+    padding-bottom: 10px;
+}
+
+.tabs span {
+    font-weight: 600;
+    cursor: pointer;
+    padding: 5px 10px;
+    text-decoration-line: underline;
+}
+
+.tabs .active {
+    color: #6b21a8;
+    border-bottom: 2px solid #6b21a8;
+}
+
+.destinations-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1200px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.destination-card {
+    background: #EEEBC1;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.destination-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.destination-image {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.destination-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.destination-description {
+    font-size: 14px;
+    color: #555;
+    margin-top: 5px;
+}
+
+.destination-info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.destination-distance {
+    color: #7c3e0e;
+}
+
+.destination-price {
+    color: #03820a;
+}
+
+.destination-duration {
+    font-size: 12px;
+    color: #777;
+    margin-top: 5px;
+}
